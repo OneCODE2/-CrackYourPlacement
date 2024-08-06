@@ -34,4 +34,10 @@ class Solution {
             }min++;
         } return freshCount == 0 ? min -1 : -1;
     } 
-}
+
+Queue: Stores at most O(m × n) coordinate pairs.
+Matrix: Uses the input matrix without extra space.
+Distance Array: A small fixed-size array, O(1).
+
+
+
